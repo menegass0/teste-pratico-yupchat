@@ -36,7 +36,7 @@ class AuthController extends BaseController
         $credentials = request(['email', 'password']);
 
         if(! $token = auth('api')->attempt($credentials)){
-            return $this->sendError('Sem Autorização', ['error' => 'Unathorized']);
+            return $this->sendError('Usuário ou Senha Incorretos', ['error' => 'Unathorized']);
         }
 
         $success = $this->respondWithToken($token);
