@@ -45,6 +45,10 @@ class AuthController extends BaseController
 
     }
 
+    // public function refresh()
+    // {
+    //     return $this->respondWithToken(auth('api')->refresh());
+    // }
 
     protected function respondWithToken($token)
     {

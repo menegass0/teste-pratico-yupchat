@@ -73,7 +73,9 @@ class TaskController extends BaseController
 
         DB::commit();
 
-        return $this->sendResponse($update, 'Task Criada com Sucesso.');
+        $task = DB::table('tasks')->where('id', $id)->first();
+
+        return $this->sendResponse($task, 'Task Alterada com Sucesso.');
     }
 
     

@@ -2,6 +2,7 @@
 
 namespace App\Http\Middleware;
 
+use App\Http\Controllers\AuthController;
 use Closure;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;
@@ -19,6 +20,10 @@ class EnsureTokenIsValid
         if(!auth('api')->user()){
             return response()->json(['success' => false, 'message' => 'Usuário Não Autenticado, realize o login antes de acessar'], 401);
         }
+
+        // $auth = new AuthController();
+
+        // $auth->refresh();
 
         return $next($request);
     }
