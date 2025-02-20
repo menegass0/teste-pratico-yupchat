@@ -19,7 +19,7 @@ Follow these instructions to get a copy of the project up and running on your lo
    cd teste-pratico-yupchat
 2.  **Copy the .env.example file and set up your environment**:
     ```bash
-    copy .env.example
+    copy .env.example .env
     ```
     If you are on a Unix-based system, use cp .env.example .env.
     ```bash
