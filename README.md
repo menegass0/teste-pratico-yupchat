@@ -15,7 +15,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/your-repository.git](https://github.com/menegass0/teste-pratico-yupchat.git)
+   git clone https://github.com/menegass0/teste-pratico-yupchat.git
    cd teste-pratico-yupchat
 2.  **Copy the .env.example file and set up your environment**:
     ```bash
