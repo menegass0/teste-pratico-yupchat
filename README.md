@@ -6,7 +6,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-- PHP >= 7.3
+- PHP >= 8.2
 - Composer
 - MySQL or any other supported database
 
