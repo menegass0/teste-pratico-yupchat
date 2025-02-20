@@ -17,7 +17,10 @@ Follow these instructions to get a copy of the project up and running on your lo
    ```bash
    git clone https://github.com/menegass0/teste-pratico-yupchat.git
    cd teste-pratico-yupchat
-2.  **Copy the .env.example file and set up your environment**:
+2. **Install the vendor folder:**
+   ```bash
+   composer install
+3.  **Copy the .env.example file and set up your environment**:
     ```bash
     copy .env.example .env
     ```
@@ -26,7 +29,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     cp .env.example .env
     ```
 
-3.  **Set up your .env file with your database connection details**
+4.  **Set up your .env file with your database connection details**
     ```bash.
     
     DB_CONNECTION=mysql
@@ -36,13 +39,13 @@ Follow these instructions to get a copy of the project up and running on your lo
     DB_USERNAME=root
     DB_PASSWORD=password
 
-4. **Generate the JWT secret key:**
+5. **Generate the JWT secret key:**
     ```bash.
     php artisan jwt:secret
-5. **Run the database migrations:**
+6. **Run the database migrations:**
     ```bash
     php artisan migrate
-6. **Running the Application**
+7. **Running the Application**
 To start the application, run:
     ```bash
     php artisan serve
