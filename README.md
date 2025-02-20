@@ -33,7 +33,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```bash.
     
     DB_CONNECTION=mysql
-    DB_HOST=mysql
+    DB_HOST=localhost
     DB_PORT=3306
     DB_DATABASE=laravel
     DB_USERNAME=root
