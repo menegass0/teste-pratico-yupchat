@@ -8,7 +8,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 - PHP >= 8.2
 - Composer
-- MySQL or any other supported database
+- A running database (MySQL, MariaDB, etc...)
 
 ### Installation
 
