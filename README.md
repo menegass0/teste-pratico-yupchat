@@ -59,7 +59,3 @@ Victor Henrique Menegasso - Initial work - Menegasso
 
 
 
-
-
-
-O conteúdo gerado por IA pode estar incorreto
