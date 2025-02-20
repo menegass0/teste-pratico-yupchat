@@ -23,7 +23,7 @@ Follow these instructions to get a copy of the project up and running on your lo
     ```
     If you are on a Unix-based system, use cp .env.example .env.
     ```bash
-    use cp .env.example .env.
+    cp .env.example .env.
     ```
 
 3.  **Set up your .env file with your database connection details**
